@@ -1,0 +1,19 @@
+{
+   "name": "cap4realtimeDB",
+   "version": "1.0.0",
+   "main": "index.js",
+   "license": "MIT",
+   "scripts": {
+      "dev": "parcel serve ./src/index.html"
+   },
+   "devDependencies": {
+      "nodemon": "^2.0.19",
+      "parcel": "^2.7.0",
+      "process": "^0.11.10",
+      "uuid": "^9.0.0"
+   },
+   "dependencies": {
+      "@vaadin/router": "^1.7.4",
+      "firebase": "^9.10.0"
+   }
+}
